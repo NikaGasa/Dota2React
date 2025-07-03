@@ -1,0 +1,71 @@
+header {
+  background-color: #333;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    display: flex;
+    gap: 1.5rem;
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #444;
+        color: #ffffff;
+      }
+
+      &.active {
+        background-color: #a83018;
+        color: #ffffff;
+      }
+    }
+  }
+
+  button {
+    background-color: #a83018;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #000000;
+    }
+  }
+}
+
+/* Dark mode support (optional, if you're adding classes to <body> or <html>) */
+body.dark header {
+  background-color: #222;
+
+  nav a {
+    color: #ddd;
+
+    &:hover {
+      background-color: #333;
+    }
+
+    &.active {
+      background-color: #a83018;
+    }
+  }
+
+  button {
+    background-color: #a83018;
+
+    &:hover {
+      background-color: #000000;
+    }
+  }
+}

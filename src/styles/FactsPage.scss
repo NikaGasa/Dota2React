@@ -1,0 +1,30 @@
+@import "../styles/mixins";
+
+.facts-container {
+  .h1 {
+    text-align: center;
+  }
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr); // ტაბლეტისთვის
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr); // დესკტოპისთვის
+  }
+
+  //  .facts-container.light {
+  //   background: #fff;
+  //   color: #000;
+  // }
+
+  // .facts-container.dark {
+  //   background: #111;
+  //   color: #eee;
+  // }
+}
