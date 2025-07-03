@@ -1,12 +1,13 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React project, its a Dota site where you can see the Characters/Heroes that are currently available in Dota 2 as well as Items, Items Page also has the Search function.
+I get the Heroes information from API https://api.opendota.com/api/heroes, and their picture from official steam page, items are also from opendota.com
 
-Currently, two official plugins are available:
+Main Page - ![image](https://github.com/user-attachments/assets/8d82ed2b-1f2c-4e99-8190-3f04baa97477)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Heroes Page (light&darkmode) - ![image](https://github.com/user-attachments/assets/5c918080-1d9e-46c1-9e44-142ec4b8d1b3) ![image](https://github.com/user-attachments/assets/a33c71eb-8327-4bfd-9906-ac719025e1e6)
+ 
+Items Page (light&darkmode) - ![image](https://github.com/user-attachments/assets/d70ef094-44f6-414f-a9d8-63ed21aaf6e7)  ![image](https://github.com/user-attachments/assets/523c09f1-9512-43aa-9ad8-6849b8150702)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
