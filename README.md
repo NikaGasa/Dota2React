@@ -1,6 +1,6 @@
 # React + Vite
 
-This is a React project, its a Dota site where you can see the Characters/Heroes that are currently available in Dota 2 as well as Items.
+This is a React project, its a Dota site where you can see the Characters/Heroes that are currently available in Dota 2 as well as Items, Items Page also has the Search function.
 I get the Heroes information from API https://api.opendota.com/api/heroes, and their picture from official steam page, items are also from opendota.com
 
 Main Page - ![image](https://github.com/user-attachments/assets/8d82ed2b-1f2c-4e99-8190-3f04baa97477)
